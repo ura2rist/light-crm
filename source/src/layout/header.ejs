@@ -1,0 +1,10 @@
+<%- include('../layout/head.ejs') %>
+<header class="header">
+  <div class="wrapper header__wrapper">
+    <a href="/" class="header__logo-link">
+      <img src="../assets/image/logo.png" alt="#"  class="header__logo-img">
+    </a>
+    <input type="text" name="search" id="header__search" class="header__search <%= page == 'page' && 'header__search_hidden'%>" placeholder="Введите запрос">
+  </div>
+</header>
+<main class="main">
